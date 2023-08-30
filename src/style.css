@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red;   */
+    
+}
+/* Remove focus outline for all elements */
+*:focus {
+    outline: none;
+  }
+  
+body {
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.center {
+    display: flex-end;
+    justify-content: center;
+    
+  
+  }
+
+.cotizacion {
+   
+    padding: 2rem;
+    max-width: 80vw;
+    width: 50%;
+   
+}
+.title {
+    display: flex;
+    justify-content: end;
+    
+}
+.information {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* .main-info{
+    margin: 1rem;
+}
+
+.sub-info {
+    margin: 1rem;
+} */
+.client {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* columns */
+.column-header{
+
+    display: flex;
+    width: 100%;
+}
+.column-title {
+    width: 20%;
+    height: 30px; /* Adjust the height of the titles and columns */
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem 0 0.5rem ;
+    
+}
+
+  #column-descripcion{
+      width: 40%;
+  }
+.column-row {
+    display: flex;
+
+  }
+  
+  
+  .column {
+   
+    height: 30px; 
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+
+  }
+  
+/*   
+.classic-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+      padding: 0.5rem;
+      width: 5rem;
+  } */
+  .classic-btn{
+      
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin: 1rem;
+
+    width: 5rem;
+  }
+  
+  .classic-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+  /* Remove number input arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.column-row input {
+    width: 20%; /* By default, each input gets 20% width */
+    padding: 0 0.5rem 0 0.5rem ;
+  }
+  
+  .column-row input[type="text"] {
+    width: 40%; /* Adjust the width for text inputs */
+    text-align: left;
+  }
+
+  .buttons-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .left-buttons{
+      display: flex;
+  }
+
+.lp-logo{
+    width: 20%;
+}
