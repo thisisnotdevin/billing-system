@@ -17,3 +17,5 @@ The backend and frontend communicate through APIs (Application Programming Inter
 Depending on your chosen database, you'll connect to it from the backend to store and retrieve data.
 
 Both the backend and frontend codebase will be written in JavaScript, providing a consistent development experience.
+
+mongosh "mongodb+srv://cluster0.u3mdqjv.mongodb.net/" --apiVersion 1 --username admin
